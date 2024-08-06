@@ -91,7 +91,7 @@ def get_web_highquality_pair_idxs_single(packed_input):
                 question_diff_num = sum([x[1] for x in diff_a_b.items()]) + sum([x[1] for x in diff_b_a.items()]) #real question_diff_num
                 if question_diff_num <= 5:
                     flag2 = is_subsequence(solve_step, answer)
-            if flag1 ==1 or (flag2 ==1 and question_diff_num<=5):
+            if flag1 ==1 or flag2 ==1:
                 pairwise_keys.append({"highquality_idx":highquality_idx, "web57w_idx":e['web57w_idx']})
                 break
     return pairwise_keys
@@ -135,4 +135,7 @@ if __name__ == "__main__":
     get_web_highquality_pair_idxs()
     prepare_pairwise_sft_data()
 
-# python process_pairwise_data.py
+
+'''
+python process_pairwise_data.py
+'''
