@@ -109,9 +109,19 @@ We alse provide a rule based baseline for cleaning the web-crawled data, which i
 python rule_cleaning.py 
 ```
 
-<!-- ## Citation
-Please cite our paper if you use the code in your work.
+## Citation
+Please cite our paper if you find this code useful in your work.
 ```bibtex
+@article{Web_to_SFT,
+  author       = {Jing Zhou and
+                  Chenglin Jiang and
+                  Wei Shen and
+                  Xiao Zhou and
+                  Xiaonan He},
+  title        = {Leveraging Web-Crawled Data for High-Quality Fine-Tuning},
+  journal      = {CoRR},
+  volume       = {abs/2408.08003},
+  year         = {2024}
+}
 
-
-``` -->
+```
