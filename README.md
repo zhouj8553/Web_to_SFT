@@ -112,15 +112,16 @@ python rule_cleaning.py
 ## Citation
 Please cite our paper if you find this code useful in your work.
 ```bibtex
-@article{Web_to_SFT,
+@inproceedings{DBLP:conf/emnlp/ZhouJ0ZH24,
   author       = {Jing Zhou and
                   Chenglin Jiang and
                   Wei Shen and
                   Xiao Zhou and
                   Xiaonan He},
   title        = {Leveraging Web-Crawled Data for High-Quality Fine-Tuning},
-  journal      = {CoRR},
-  volume       = {abs/2408.08003},
+  booktitle    = {{EMNLP} (Findings)},
+  pages        = {11297--11312},
+  publisher    = {Association for Computational Linguistics},
   year         = {2024}
 }
 
